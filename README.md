@@ -1,2 +1,1 @@
-# PythonProject2
-PythonProject2
+Ненужная тема, тут только pytest.ini из нужных
