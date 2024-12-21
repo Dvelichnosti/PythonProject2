@@ -1,5 +1,6 @@
-Основной файл test_two.py
-лежит Dockerfile  с compose
-Запуск тестов
-BROWSER=firefox docker-compose up --build
-есть Docker-контейнер, в котором используется виртуальное окружение для изоляции зависимостей.
+<p>Основной файл test_two.py<br>
+лежит Dockerfile  с compose<br>
+Запуск тестов<br>
+BROWSER=firefox docker-compose up --build<br>
+есть Docker-контейнер, в котором используется виртуальное окружение для изоляции зависимостей.<br>
+</p>
