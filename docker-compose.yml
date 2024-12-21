@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  playwright-tests:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - BROWSER=${BROWSER:-chromium}
+    command: >
+      sh -c "pytest test_two.py --browser $BROWSER"
